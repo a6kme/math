@@ -1,3 +1,3 @@
 // import { maxBy } from 'lodash/maxBy';
-const maxBy = require('lodash/maxBy');
-export default array => maxBy(array, element => element);
+const max = require('lodash/max');
+export default array => max(array);
