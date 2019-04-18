@@ -1,4 +1,4 @@
-import add from '../../src/arithmetic/add';
+import { add } from '../../src';
 
 test('Two integers should get added up', () => {
   expect(add(2, 3)).toBe(5);

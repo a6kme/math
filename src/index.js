@@ -1,6 +1,4 @@
-import max from './range/max';
-import add from './arithmetic/add';
-import divide from './arithmetic/divide';
-import abs from './arithmetic/abs';
-
-export { abs, add, divide, max };
+export { default as max } from './range/max';
+export { default as add } from './arithmetic/add';
+export { default as divide } from './arithmetic/divide';
+export { default as abs } from './arithmetic/abs';

@@ -1,4 +1,4 @@
-import abs from '../../src/arithmetic/abs';
+import { abs } from '../../src';
 
 test('Should return absolute value of positive and negative integers', () => {
   expect(abs(-1)).toBe(1);
