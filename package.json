@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack --mode=production",
-    "install": "npm run test",
+    "prepare": "npm run test",
     "posttest": "npm run build"
   },
   "repository": {
