@@ -1,6 +1,6 @@
 {
   "name": "@a6kme/math",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/math.js",
   "scripts": {
@@ -9,6 +9,9 @@
     "prepare": "npm run test",
     "posttest": "npm run build"
   },
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/a6kme/math.git"
