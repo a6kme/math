@@ -9,6 +9,9 @@
     "prepare": "npm run test",
     "posttest": "npm run build"
   },
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/a6kme/math.git"
