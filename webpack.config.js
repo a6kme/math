@@ -5,7 +5,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'math.js',
-    library: 'mathJs'
+    library: 'mathJs',
+    libraryTarget: 'umd',
+    globalObject: 'this'
   },
   module: {
     rules: [
